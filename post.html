@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Post</title>
+</head>
+<body>
+
+    <div class="page">
+        <header class="header">
+          <div class="header__left">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="../index.html">Главная</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link has-subnav" href="#">Статьи</a>
+        
+                  <ul class="subnav">
+                    <li>
+                      <a class="subnav__link" href="#">Категория #1</a>
+                    </li>
+                    <li>
+                      <a class="subnav__link" href="#">Категория #2</a>
+                    </li>
+                    <li>
+                      <a class="subnav__link" href="#">Категория #3</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="text.html">Обо мне</a>
+                </li>
+              </ul>
+            </nav>
+        
+            <button class="burger" type="button" id="sidebarToggle">
+              <span></span>
+            </button>
+          </div>
+          <div class="header__right">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="../profile.html">Профиль</a>
+                </li>
+              </ul>
+            </nav>
+            <form class="search" action="search.html" method="get">
+              <input class="search__input" type="text" placeholder="Поиск по блогу" />
+            </form>
+          </div>
+        </header>
+
+        <aside class="sidebar" id="sidebar">
+          <div class="sidebar__header">
+            <img src="assets/images/intro1.jpg" alt="profile" />
+          </div>
+        
+          <div class="sidebar__content">
+            <div class="profile">
+              <img
+                class="profile__avatar"
+                src="assets/images/into_img.jpg"
+                alt="avatar"
+              />
+        
+              <div class="profile__header">
+                <div class="profile__name">Яновская Татьяна</div>
+                <div class="profile__job">блог Учителя Истории</div>
+              </div>
+        
+              <ul class="social">
+                <li class="social__item">
+                  <a class="social__link" href="" target="_blank">
+                    <img src="assets/images/instagram.svg" alt="Instagram" />
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="" target="_blank">
+                    <img src="assets/images/vk.svg" alt="VK" />
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="" target="_blank">
+                    <img src="assets/images/pinterest.svg" alt="Pinterest" />
+                  </a>
+                </li>
+              </ul>
+        
+              <div class="profile__text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+                  doloremque temporibus voluptatem voluptas assumenda explicabo
+                  excepturi. Enim optio, illo quasi repellat molestiae nam quia, facilis
+                  soluta repellendus eum excepturi quae.
+                </p>
+              </div>
+            </div>
+            <!-- /. Profile -->
+        
+            <nav class="nav nav--mobile">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="index.html">Главная</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link has-subnav" href="#">Статьи</a>
+        
+                  <ul class="subnav">
+                    <li>
+                      <a class="subnav__link" href="#">Категория #1</a>
+                    </li>
+                    <li>
+                      <a class="subnav__link" href="#">Категория #2</a>
+                    </li>
+                    <li>
+                      <a class="subnav__link" href="#">Категория #3</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="text.html">Обо мне</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="text.html">Реклама</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="profile.html">Профиль</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="text.html">Выйти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /. Sidebar__content -->
+        
+          <div class="sidebar__footer">
+            <a class="btn btn-red" href="../works.html">Мои работы</a>
+            <button class="btn btn-blue" type="button" data-modal="contact-modal">
+              Написать мне
+            </button>
+          </div>
+        </aside>
+
+        <main class="main">
+            <div class="container">
+                
+                <article class="post">
+                  <div class="post__actions">
+                    <a href="index.html">Вернуться назад</a>
+                    <a href="#"
+                      >Поделиться
+                      <img class="post__actions-icon" src="assets/images/share.svg" alt="share"
+                    /></a>
+                  </div>
+                  <div class="post__header post__header--open">
+                    <h2 class="post__title post__title--open">
+                      Как писать код быстро и безболезненно?
+                    </h2>
+                    <ul class="post__data">
+                      <li class="post__data-item">
+                        <time datetime="2021-06-21 18:12">21.06.2021</time>
+                      </li>
+                      <li class="post__data-item">
+                        <a href="#">создание сайтов</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="post__content">
+                    <div class="post__text">
+                      <h2>Title h2</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+                        volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit.
+                        Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu
+                        sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa.
+                        Egestas ornare vel volutpat.
+                      </p>
+                
+                      <h3>Title h3</h3>
+                      <p>
+                        Lorem ipsum dolor sit <a href="#">amet</a>, consectetur adipiscing elit.
+                        Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor
+                        lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu
+                        egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed
+                        volutpat massa. Egestas ornare vel volutpat.
+                      </p>
+                
+                      <img src="assets/images/posts/post2jpg.jpg" alt="post-image" />
+                
+                      <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                      </ul>
+                
+                      <ol>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                      </ol>
+                
+                      <table>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                      </table>
+                
+                      <span class="fr-video">
+                        <iframe
+                          width="560"
+                          height="315"
+                          src="https://www.youtube.com/embed/CbdyrybpWAk"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen
+                        ></iframe>
+                      </span>
+                    </div>
+                    <!-- ./post__text -->
+                
+                    <div class="related">
+                      <h3 class="post__subtitle">Интересно почитать</h3>
+                
+                      <ul class="related__list">
+                        <li class="related__list-item">
+                          <h4 class="related__list-title">
+                            <a href="#">Как я сходил на FrontEnd Conf 2022</a>
+                          </h4>
+                          <time class="related__list-date" datetime="2020-05-21 19:21"
+                            >21.06.2020</time
+                          >
+                        </li>
+                
+                        <li class="related__list-item">
+                          <h4 class="related__list-title">
+                            <a href="#">Как я сходил на FrontEnd Conf 2022</a>
+                          </h4>
+                          <time class="related__list-date" datetime="2020-05-21 19:21"
+                            >21.06.2020</time
+                          >
+                        </li>
+                
+                        <li class="related__list-item">
+                          <h4 class="related__list-title">
+                            <a href="#">Как я сходил на FrontEnd Conf 2022</a>
+                          </h4>
+                          <time class="related__list-date" datetime="2020-05-21 19:21"
+                            >21.06.2020</time
+                          >
+                        </li>
+                
+                        <li class="related__list-item">
+                          <h4 class="related__list-title">
+                            <a href="#">Как я сходил на FrontEnd Conf 2022</a>
+                          </h4>
+                          <time class="related__list-date" datetime="2020-05-21 19:21"
+                            >21.06.2020</time
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- ./related -->
+                
+                    <h3 class="post__subtitle">Обсуждение</h3>
+                
+                    <form class="form" action="/" method="post">
+                      <div class="form__group">
+                        <textarea
+                          class="form-control form-control--textarea"
+                          name="comment-text"
+                          placeholder="Текст комментария"
+                          data-autoresize
+                        ></textarea>
+                        <span class="form__line"></span>
+                      </div>
+                
+                      <button class="btn btn-blue btn-rounded btn-sm" type="submit">
+                        Отправить
+                      </button>
+                    </form>
+                
+                    <ul class="comments">
+                      <li class="comments__item">
+                        <div class="comments__header">
+                          <img
+                            class="comments__avatar"
+                            src="https://placehold.it/30"
+                            alt="auth_img"
+                          />
+                          <div class="comments__author">
+                            <div class="comments__name">Vlad</div>
+                            <time class="comments__date" datetime="2020-12-21 19:21"
+                              >1 неделю назад</time
+                            >
+                          </div>
+                        </div>
+                
+                        <div class="comments__text">
+                          Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci
+                          auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu
+                          auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel
+                          volutpat.
+                        </div>
+                
+                        <button class="comments__reply" type="button">ответить</button>
+                
+                        <ul class="comments">
+                          <li class="comments__item">
+                            <div class="comments__header">
+                              <img
+                                class="comments__avatar"
+                                src="https://placehold.it/30"
+                                alt="auth_img"
+                              />
+                              <div class="comments__author">
+                                <div class="comments__name">Vlad</div>
+                                <time class="comments__date" datetime="2020-12-21 19:21"
+                                  >1 неделю назад</time
+                                >
+                              </div>
+                            </div>
+                
+                            <div class="comments__text">
+                              Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci
+                              auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu
+                              auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare
+                              vel volutpat.
+                            </div>
+                
+                            <button class="comments__reply" type="button">ответить</button>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                
+                    <ul class="comments">
+                      <li class="comments__item">
+                        <div class="comments__header">
+                          <img
+                            class="comments__avatar"
+                            src="https://placehold.it/30"
+                            alt="auth_img"
+                          />
+                          <div class="comments__author">
+                            <div class="comments__name">Vlad</div>
+                            <time class="comments__date" datetime="2020-12-21 19:21"
+                              >1 неделю назад</time
+                            >
+                          </div>
+                        </div>
+                
+                        <div class="comments__text">
+                          Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci
+                          auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu
+                          auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel
+                          volutpat.
+                        </div>
+                
+                        <button class="comments__reply" type="button">ответить</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- ./post__content -->
+                </article>
+                <!-- ./post -->
+                
+            </div>
+        </main>
+    </div>
+
+
+    <div class="modal" id="contact-modal">
+      <div class="modal__content modal__content--contact">
+        <button class="modal__close" type="button">
+          <img src="assets/images/close.svg" alt="Закрыть" />
+        </button>
+    
+        <form class="form" action="/" method="post">
+          <div class="form__group form__group--md">
+            <input class="form-control" type="text" placeholder="Ваше Имя" />
+            <span class="form__line"></span>
+          </div>
+          <div class="form__group form__group--md">
+            <input class="form-control" type="email" placeholder="Ваш e-mail" />
+            <span class="form__line"></span>
+          </div>
+          <div class="form__group form__group--md">
+            <textarea
+              class="form-control form-control--textarea"
+              placeholder="Текст сообщения"
+            ></textarea>
+            <span class="form__line"></span>
+          </div>
+    
+          <div class="form__footer">
+            <div class="form__group form__group--md">
+              <button class="btn btn-blue btn-rounded btn-sm">Отправить</button>
+            </div>
+          </div>
+        </form>
+    
+        <ul class="modal__footer">
+          <li>
+            e-mail: <a href="mailto:placeholder@gmail.com">placeholder@gmail.com</a>
+          </li>
+          <li>тел: <a href="tel:9435921320">9435921320</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="modal" id="story-modal">
+      <div class="modal__content modal__content--story">
+        <video
+          class="modal__video"
+          src=""
+          poster="https://placehold.it/420x580"
+        ></video>
+      </div>
+    </div>
+    <div class="modal" id="contact-modal">
+      <div class="modal__content">
+        <button class="modal__close" type="button">
+          <img src="assets/images/close.svg" alt="Закрыть" />
+        </button>
+    
+        <ul class="social">
+          <li class="social__item">
+            <a class="social__link" href="" target="_blank">
+              <img src="../assets/images/share/facebook.svg" alt="facebook" />
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="" target="_blank">
+              <img src="../assets/images/share/vk.svg" alt="VK" />
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="" target="_blank">
+              <img src="../assets/images/share/twitter.svg" alt="twitter" />
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="" target="_blank">
+              <img src="../assets/images/share/copy.svg" alt="Share" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
