@@ -505,6 +505,7 @@ a:hover {
 }
 @media (max-width: 991px) {
   .nav__item:hover .nav__link {
+    color: #000;
     background: none;
   }
 }
@@ -538,6 +539,11 @@ a:hover {
 .nav__link.has-subnav:hover:after {
   transform: rotate(180deg) translateY(50%);
   border-color: #fff transparent transparent transparent;
+}
+@media (max-width: 991px) {
+  .nav__link.has-subnav:hover::after {
+    border-color: #000 transparent transparent transparent;
+  }
 }
 @media (max-width: 991px) {
   .nav__link {
@@ -639,9 +645,11 @@ a:hover {
   .subnav__link {
     padding-left: 0;
     padding-right: 0;
+    color: #000;
     font-size: 1.5rem;
   }
   .subnav__link:hover {
+    color: #000;
     background-color: none;
   }
 }

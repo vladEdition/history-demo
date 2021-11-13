@@ -667,7 +667,7 @@ a:hover {
 .subnav__link {
     display: block;
     padding: 0.45rem 1.2rem;
-    color: #fff;
+    color: #000;
     font-size: 1.3rem;
     text-decoration: none;
     transition: background-color 0.3s ease-in-out;
@@ -804,8 +804,8 @@ a:hover {
     margin-top: 1rem;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding: 0 2rem;
 }
 
@@ -976,6 +976,22 @@ a:hover {
 
 .btn-sm {
     padding: 0.7em 1.25rem;
+}
+
+.btn--no-style {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    background: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+    color: #000;
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.1;
+    transition: none;
 }
 
 .stories {
